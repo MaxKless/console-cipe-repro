@@ -5,6 +5,6 @@ import Page from '../src/app/page';
 describe('Page', () => {
   it('should render successfully', () => {
     const { baseElement } = render(<Page />);
-    expect(baseElement).toBeTruthy();
+    expect(baseElement).toBeFalsy();
   });
 });
