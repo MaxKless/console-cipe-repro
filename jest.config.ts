@@ -4,4 +4,6 @@ export default async () => ({
   projects: await getJestProjectsAsync(),
 });
 
+console.log('hello')
+
 
